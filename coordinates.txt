@@ -1,0 +1,287 @@
+1
+00 00 07 13
+South edge of the pond north-east of Tyras Camp
+
+2
+00 05 01 13
+Between Tree Gnome Village and the river to the west
+
+3
+00 13 14 00
+On Must Point between two lakes west of the general store
+
+4
+00 18 09 28
+At entrance to Brimhaven Dungeon
+
+5
+00 20 23 15
+At the campfire north-east of Shattered Worlds
+
+6
+00 31 17 43
+South of the entrance to the Asgarnian Ice Dungeon
+
+7
+00 50 24 16
+North of the Nexus in Lumbridge Swamp
+
+8
+01 18 14 15
+North-western shore of the south-eastern section of Karamja
+
+9
+01 24 08 05
+Just east of the pond south-west of the Elf Camp in Tirannwn
+
+10
+01 26 08 01
+In the center of Moss Giant Island west of Brimhaven
+
+11
+01 35 07 28
+North of Hazelmere's house east of Yanille
+
+12
+02 33 28 45
+On the walls of the Duel Arena, north-east of the bank
+
+13
+02 48 22 30
+Somewhere in the north-western part of Lumbridge Crater
+
+14
+02 50 06 20
+South-east of Ardougne Zoo on the lake peninsula
+
+15
+02 50 21 46
+Between Draynor Jail and Lumbridge Crater
+
+16
+03 03 05 03
+South-east of Yanille, north of the ocean
+
+17
+03 35 13 35
+West of the divination crater on Karamja, north of the altar
+
+18
+03 39 13 58
+Directly south-west of the divination crater on Karamja
+
+19
+03 45 22 45
+On the north edge of the pond in the Bedabin Camp
+
+20
+04 00 12 46
+In the center of the mine north of Shilo Village
+
+21
+04 03 03 11
+Center of Gu'Tanoth south of Yanille
+
+22
+04 05 04 24
+Island east of Gu'Tanoth (need to use the tunnel south of the city)
+
+23
+04 13 12 45
+Northern part of Cranidor Island
+
+24
+04 16 16 16
+By the building in the Shipyard in East Karamja
+
+25
+04 41 03 09
+At the red spider egg spawn in Arandar Pass
+
+26
+05 20 04 28
+In Feldip Hills south-east of Gu'Tanoth, between two boulders
+
+27
+05 37 31 15
+In Mort Myre Swamp north part of the Nature Spirit's grotto
+
+28
+05 43 23 05
+At the southern end of bridge next to Champion's Guild
+
+29
+05 50 10 05
+Island connected to west Karamja, next to the chameleon egg
+
+30
+06 00 21 48
+Peninsula west of the Bandit Camp in the desert
+
+31
+06 11 15 07
+North of the juju farming location, east of Shilo Village on Karamja
+
+32
+06 31 01 46
+Between the three lakes north of the World Gate
+
+33
+07 05 30 56
+South of the lake with two fishing spots in Mory Myre Swamp
+
+34
+07 22 14 15
+In the Taverley wheat field next to the scarecrow
+
+35
+07 33 15 00
+On the peninsula east of the Taverley wheat field
+
+36
+07 41 06 00
+North of Ardougne and east of the Fishing Guild
+
+37
+07 43 12 26
+South of the pond in the Kharazi Jungle
+
+38
+08 03 31 16
+North-east of the pond with two fishing spots in Mort Myre Swamp
+
+39
+08 05 15 56
+North of the southern vine in the juju farming spot on Karamja
+
+40
+08 26 10 28
+South-western peninsula of Kharazi Jungle, north of the skeleton
+
+41
+08 33 01 39
+Western part of Tree Gnome Stronghold, east of the terrorbird pen
+
+42
+09 22 02 24
+South of the Eagle's Peak lodestone, by the path
+
+43
+09 33 02 15
+Baxtorian falls above door to dungeon
+
+44
+09 48 17 39
+On Ice Mountain south of the oracle
+
+45
+11 03 31 20
+South of the fence outside the Slayer Tower
+
+46
+11 05 00 45
+In the swamp in the northern part of the Tree Gnome Stronghold
+
+47
+11 41 14 58
+South-east of the Burthorpe lodestone, next to the flag
+
+48
+12 48 20 20
+Next to the air obelisk in the Wilderness (go through Edgeville Dungeon)
+
+49
+13 46 21 01
+South-west of the Wilderness lodestone, between the shrooms
+
+50
+14 54 09 13
+South of the Fremennik Province lodestone, next to the Swaying tree
+
+51
+15 48 13 52
+Trollheim teleport location, south of Edgar's cave
+
+52
+16 03 14 07
+Trollheim teleport location, east of Edgar's cave
+
+53
+16 20 12 45
+In front of the entrance to the Troll Stronghold, west of the Trollheim teleport
+
+54
+16 30 16 28
+In the Ruins west of the Bandit Camp in the Wilderness
+
+55
+16 35 27 01
+Next to the lava pool north-east of the Boneyard in the Wilderness
+
+56
+16 43 19 11
+South of the pond in the Bandit Camp in the Wilderness
+
+57
+17 50 08 30
+Next to the pier on the northern shore of the Fremennik Province
+
+58
+18 03 25 16
+In the Ruins east of the Wilderness Volcano
+
+59
+18 22 16 33
+In the Graveyard of Shadows in the Wilderness
+
+60
+19 43 25 07
+South-east of Red Dragon Isle and North of the Ruins in the Wilderness
+
+61
+20 05 21 52
+North of the Wilderness Volcano and south of the bloodweed herb patch
+
+62
+20 07 18 33
+In the mine south of the Lava Maze in the Wilderness
+
+63
+20 33 15 48
+Behind the Chaos Temple in the Wilderness
+
+64
+21 24 17 54
+West of the Lava Maze next to the Wilderness entrance to the King Black Dragon
+
+65
+22 30 03 01
+Outside the entrance of the mine to the north of Miscellania
+
+66
+22 35 19 18
+North of the Lava Maze in the Wilderness, next to the runite rock
+
+67
+22 45 26 33
+At the Demonic Ruins in the Wilderness
+
+68
+24 26 26 24
+Inside the Rogue's Castle in the Wilderness
+
+69
+24 56 22 28
+North of the Deserted Keep in the Wilderness
+
+70
+24 58 18 43
+North of the Pirate's Hideout in the Wilderness
+
+71
+25 03 17 05
+North-west of the agility course in the Wilderness
+
+72
+25 03 23 24
+North of the magic axe hut, north-east of the Deserted Keep in the Wilderness

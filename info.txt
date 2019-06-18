@@ -1,0 +1,23 @@
+clue text will always be all lowercase
+
+anagrams	
+	organized in alphabetic order by clue text
+	format of anagrams.txt:
+		clue text
+		solution name
+		location
+
+coordinates
+	organinzed in numeric order by clue text
+	format of coordinates.txt:
+		id number for pictures
+		clue text
+		location details
+
+cryptics
+	organized in alphabetic order by clue text
+	format of cryptics.txt
+		clue text
+		short version of the clue text
+		location
+		how to get the key
