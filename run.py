@@ -120,13 +120,15 @@ def fill_cryptic():
 
     return cryptics
 
-# Testing the UI
-def calculate(*args):
+def search(*args):
     try:
-        value = float(feet.get())
-        meters.set((0.3048 * value * 10000.0 + 0.5)/10000.0)
+        result.set(1)
     except ValueError:
         pass
+
+anagrams = fill_anagram()
+coordinates = fill_coord()
+cryptics = fill_cryptic()
 
 # Building the UI
 root = Tk()
@@ -137,24 +139,31 @@ mainframe.grid(column=0, row=0, sticky=(N, W, E, S))
 root.columnconfigure(0, weight=1)
 root.rowconfigure(0, weight=1)
 
-feet = StringVar()
-meters = StringVar()
+# Dropdown label
+ttk.Label(mainframe, text="Select type").grid(column=1, row=1, sticky=W)
 
-feet_entry = ttk.Entry(mainframe, width=7, textvariable=feet)
-feet_entry.grid(column=2, row=1, sticky=(W, E))
+# Type dropdown menu
+types = StringVar()
+type_select = ttk.Combobox(mainframe, width=8, textvariable=types)
+type_select['values'] = ('Anagrams', 'Coordinates', 'Cryptics')
+type_select.state(['readonly'])
+type_select.grid(column=1, row=2, sticky=W)
 
-ttk.Label(mainframe, textvariable=meters).grid(column=2, row=2, sticky=(W, E))
-ttk.Button(mainframe, text="Calculate", command=calculate).grid(column=3, row=3, sticky=W)
+# Search bar
+search_entry = StringVar()
+search_bar = ttk.Entry(mainframe, width=20, textvariable=search_entry)
+search_bar.grid(column=2, row=2, sticky=W)
 
-ttk.Label(mainframe, text="feet").grid(column=3, row=1, sticky=W)
-ttk.Label(mainframe, text="is equivalent to").grid(column=1, row=2, sticky=E)
-ttk.Label(mainframe, text="meters").grid(column=3, row=2, sticky=W)
+# Search button
+ttk.Button(mainframe, text="Search", command=search).grid(column=2, row=3, sticky=E)
+
+result = StringVar()
 
 for child in mainframe.winfo_children(): 
     child.grid_configure(padx=5, pady=5)
 
-feet_entry.focus()
-root.bind('<Return>', calculate)
+search_bar.focus()
+root.bind('<Return>', search)
 
 root.mainloop()
 
