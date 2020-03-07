@@ -17,3 +17,9 @@ class CrypticClue:
         self.short_ver = short
         self.location = loc
         self.key = key
+
+class SkillRiddleClue:
+    def __init__(self, text, short, sol):
+        self.clue_text = text
+        self.short_ver = short
+        self.solution = sol

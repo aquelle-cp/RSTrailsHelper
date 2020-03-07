@@ -1,6 +1,7 @@
 from clue import AnagramClue
 from clue import CoordClue
 from clue import CrypticClue
+from clue import SkillRiddleClue
 import sys
 
 # Main
@@ -8,6 +9,7 @@ def main():
     anagrams = fill_anagram()
     coordinates = fill_coord()
     cryptics = fill_cryptic()
+    skill_riddles = fill_skill_riddle()
     usage = '''usage: [clue || usage || q]
         q - quit
         usage - print usage message\n'''
@@ -25,11 +27,16 @@ def main():
             sys.exit()
         elif find == 'usage':
             print(usage)
+        elif find.lower() == 'tower' or find.lower() == 'towers':
+            print('https://baldwinchang.github.io/runescape-towers/#/')
+        elif find.lower() == 'lockbox':
+            print('https://runescape.wiki/w/Treasure_Trails/Guide/Lockboxes')
         else:
             find = find.lower()
             match_anagrams = [a for a in anagrams if find in a.clue_text]
             match_coordinates = [c for c in coordinates if find in c.clue_text]
             match_cryptics = [y for y in cryptics if find in y.clue_text]
+            match_skill_riddles = [s for s in skill_riddles if find in s.clue_text]
 
             print('')
 
@@ -63,8 +70,14 @@ def main():
 
                 print('')
 
+            if match_skill_riddles:
+                print('Skill riddles:')
+
+                for s in match_skill_riddles:
+                    print(f'| {s.short_ver:32} | {s.solution}')
+
             # If there aren't any matches, notify user
-            if not match_anagrams and not match_coordinates and not match_cryptics:
+            if not match_anagrams and not match_coordinates and not match_cryptics and not match_skill_riddles:
                 print('No matching clues')
 
         print('')
@@ -136,6 +149,26 @@ def fill_cryptic():
     file.close()
 
     return cryptics
+
+def fill_skill_riddle():
+    file = open('skill_riddles.txt', 'r')
+    skill_riddles = []
+
+    count = 0
+    for line in file:
+        if count % 4 == 0:
+            text = line.rstrip('\n').lower()
+        elif count % 4 == 1:
+            short = line.rstrip('\n')
+        elif count % 4 == 2:
+            sol = line.rstrip('\n')
+            skill_riddles.append(SkillRiddleClue(text, short, sol))
+
+        count += 1
+
+    file.close()
+
+    return skill_riddles
 
 if __name__ == '__main__':
     main()
